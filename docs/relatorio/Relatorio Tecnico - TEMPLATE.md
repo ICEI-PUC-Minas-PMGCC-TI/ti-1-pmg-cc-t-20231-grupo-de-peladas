@@ -460,7 +460,11 @@ ti-1-pmg-cc-t-20231-grupo-de-peladas`.
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  
+https://www.figma.com/ 
+https://trello.com/
+https://miro.com/
+......
 
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
