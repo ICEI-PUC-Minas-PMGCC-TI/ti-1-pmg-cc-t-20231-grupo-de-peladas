@@ -1,21 +1,28 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  PLAYPORTAL ......
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Ciência da Computação ......
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Vitor Viana 
+        Gabriel Reis 
+        Pedro Rogrigues 
+        Arthur Bernardo
+        Enzo Gabriel ......
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> - Vitor Augusto Viana Azevedo
+> - Gabriel Reis Villela
+> - Pedro Rodrigues Alves     
+> - Enzo Gabriel Rodrigues Mendes De Alcantara
+> - Arthur Bernardo Santos Marques
 
 # Estrutura do Documento
 
@@ -56,7 +63,7 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+...... É perceptível que com o retorno das atividades presenciais desde a pandemia de COVID-19 as pessoas tendem a procurar cada vez mais o contato físico novamente e, consequentemente, os esportes. Nesse sentido, percebemos a necessidade e a dificuldade que as pessoas tem para achar métodos de se encontrarem e conseguir pessoas para praticar esportes. Além disso, existem algumas complicações como disponibilidade de quadras e horários, busca por jogadores, variedade de esportes, frequência a ser jogada, entre outros.  ......
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -76,7 +83,9 @@
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Nosso trabalho consiste em um software que tem como intuito simplificar e melhorar os métodos de marcar encontros esportivos. Nesse sentido, visamos que conseguir juntar o máximo de pessoas possíveis na plataforma, por meio da entrega de diversas modalidades esportivas em uma só plataforma, visto que a maioria dos brasileiros gostam ou praticam mais de um esporte em especíco, logo, uma plataforma que conseguisse unir mais de uma modalidade conseguiria também unir mais pessoas. Dessa forma, percebe-se também a relação do esporte com a saúde mental e física da população, assim, conforme o crescimento e popularização desse software será possivél ver uma melhora indireta na saúde brasileira, considerando os inúmeros benefícios esportivos sob esse âmbito. Com isso em mente, temos como desafios descobrir todavia alguns problemas específicos, como: 1- se os problemas ao marcar encontros esportivos são apenas a falta de pessoas disponíveis;
+                                            2- será que as pessoas em geral realmente se importam com os fatores de nivelamento de habilidade ao marcarem encontros                                                    esportivos;
+                                            3- qual exatamente é o público alvo mais denso e quais os principais esportes que deverão ser relevantes no software. ......
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
