@@ -9,11 +9,11 @@
 
 ## Participantes
 
-.....  Vitor Viana 
+......  Vitor Viana 
         Gabriel Reis 
-        Pedro Rogrigues 
+        Pedro Rogrigues Alves.
         Arthur Bernardo
-        Enzo Gabriel ......
+         ......
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
@@ -300,27 +300,16 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+......  Realizamos o processo de Design Thinking quase todo no site "miro", com exceção do projeto de interface que foi realizado no figma  ......
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  
+Scrum Master  - Pedro Rodrigues Alves
+Dev Team      - Vitor Augusto Viana Azevedor
+              - Gabriel Reis Villela
+              - Arthur Bernardo Santos Marques
+  ......
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
@@ -335,45 +324,29 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Processo de Design Thinkgin  | Miro    |  https://miro.com/app/board/uXjVMY8ZlCk= | 
+|Repositório de código        | GitHub  | https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-t-20231-grupo-de-peladas | 
+|Protótipo Interativo         | Figma   | https://www.figma.com/file/YUHpaGa34qocIB0hB2kzjU/Wireframes-Kit-%5BFree%5D-(Community)?node-id=50-1963&t=ScjF03tfCuvuKpE6-0 | 
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
+As ferramentas empregadas no projeto são:
+- Ferramentas de diagramação
+- Ferramentas de comunicação
+- Ferramenta de hospedagem
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  
+A ferramenta de controle de versão adotada no projeto foi o
+[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
+foi utilizado para hospedagem do repositório `
+ti-1-pmg-cc-t-20231-grupo-de-peladas`. 
+......
 
 > Discuta como a configuração do projeto foi feita na ferramenta de
 > versionamento escolhida. Exponha como a gerência de tags, merges,
 > commits e branchs é realizada. Discuta como a gerência de issues foi
 > realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
+> 
 > 
 > O projeto segue a seguinte convenção para o nome de branchs:
 > 
