@@ -9,7 +9,7 @@
 
 ## Participantes
 
-......  Vitor Viana 
+.....  Vitor Viana 
         Gabriel Reis 
         Pedro Rogrigues 
         Arthur Bernardo
