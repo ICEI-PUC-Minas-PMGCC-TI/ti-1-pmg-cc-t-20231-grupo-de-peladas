@@ -261,7 +261,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+......  As interfaces da solução foram desenvolvidas baseadas e pensadas em atender o principal problema que nossas personas desejam, que é a praticidade. Para isso, selecionamos um métodos de acesso rápido aos perfis próprios e dos outros jogadores para que estejam sempre atentos a quem estará presente e um acesso rápido para acessar cada funcionalidade que o site entrega para marcar os encontros esportivos. ......
 
 > Apresente as principais interfaces da solução. Discuta como 
 > foram elaboradas de forma a atender os requisitos funcionais, não
@@ -270,7 +270,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
+......  ![image](https://user-images.githubusercontent.com/130375450/232345798-da250a56-614f-4707-8f30-b82d94c05eb0.png) ......
 
 > Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
 > mapear todo fluxo de telas do site ou app. Essa técnica funciona
