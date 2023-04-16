@@ -114,7 +114,7 @@
 
 ## Público-Alvo
 
-......  Nosso público alvo são praticantes de esportes ou e-sports. Como citado anteriormente, temos como objetivo trazer o máximo de pessoas possíveis, independentemente do gênero, qual esporte pratica, idade, nível de habilidade, etc. Nossa plataforma vai prividenciar um sistema de nivelamento próprio para que as pessoas possam se dividir entre si, dentro de uma variedade de opções.  ......
+......  Nosso público alvo são praticantes de esportes ou e-sports. Como citado anteriormente, temos como objetivo trazer o máximo de pessoas possíveis, independentemente do gênero, qual esporte pratica, idade, nível de habilidade, etc. Nossa plataforma vai providenciar um sistema de nivelamento próprio para que as pessoas possam se dividir entre si, dentro de uma variedade de opções.  ......
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
