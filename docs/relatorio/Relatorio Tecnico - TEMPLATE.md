@@ -163,19 +163,22 @@
 > 
 > **Exemplo de Persona**
 > 
-> ![Exemplo de Persona](images/persona.png)
-> 
+> !![Persona/Mapa de Empatia 1](https://user-images.githubusercontent.com/130375450/232342050-d11553f9-386c-4006-85f5-e158194b6fbc.png)(images/persona.png)
+> !![Persona 2](https://user-images.githubusercontent.com/130375450/232342070-0c3de0b5-10f8-4df5-943c-4a47e3ba5e50.png)
+
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 >
 > **Exemplo de Proposta de Valor**
-> ![Exemplo da Proposta de Valor](images/proposta_valor.png)
+> !![Proposta de valor 1](https://user-images.githubusercontent.com/130375450/232342088-2839f86f-e917-416c-8434-9b74d6858a1e.png)(images/proposta_valor.png)
+> !![Proposta de valor 2](https://user-images.githubusercontent.com/130375450/232342103-edf75a29-f0d0-4a64-8080-f554cb413fc4.png)
+
 
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO... `Felipe/Roberto`| QUERO/PRECISO ... `simplicidade e praticidade` |PARA ... `marcar peladas`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
