@@ -13,7 +13,7 @@
         Gabriel Reis 
         Pedro Rogrigues Alves.
         Arthur Bernardo
-        Enzo Gabriel ......
+         ......
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
