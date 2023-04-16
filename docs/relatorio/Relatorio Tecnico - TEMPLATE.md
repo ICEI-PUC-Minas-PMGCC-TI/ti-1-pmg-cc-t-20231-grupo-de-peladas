@@ -98,7 +98,7 @@
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+...... Percebemos que muitas pessoas também são apaixonadas por esportes porém não os conseguem praticar devido à complicações para marcar encontros esportivos, por qualquer motivo já citado anteriormente. Pensando nisso, buscamos criar um método que une os amantes de esportes em uma plataforma para que possam com facilidade estarem interagindo e participando de eventos esportivos, sejam eles com intuito de se divertir, ou de forma mais séria para participar de campeonatos.   ......
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
@@ -114,7 +114,7 @@
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Nosso público alvo são praticantes de esportes ou e-sports. Como citado anteriormente, temos  ......
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
