@@ -11,7 +11,7 @@
 
 ......  Vitor Viana 
         Gabriel Reis 
-        Pedro Rogrigues 
+        Pedro Rogrigues Alves
         Arthur Bernardo
         Enzo Gabriel ......
 
