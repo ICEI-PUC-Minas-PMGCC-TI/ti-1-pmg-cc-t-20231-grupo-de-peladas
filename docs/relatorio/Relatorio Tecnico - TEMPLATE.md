@@ -114,7 +114,7 @@
 
 ## Público-Alvo
 
-......  Nosso público alvo são praticantes de esportes ou e-sports. Como citado anteriormente, temos  ......
+......  Nosso público alvo são praticantes de esportes ou e-sports. Como citado anteriormente, temos como objetivo trazer o máximo de pessoas possíveis, independentemente do gênero, qual esporte pratica, idade, nível de habilidade, etc. Nossa plataforma vai prividenciar um sistema de nivelamento próprio para que as pessoas possam se dividir entre si, dentro de uma variedade de opções.  ......
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
@@ -133,7 +133,7 @@
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Ao terminar de fazer uma espécie de protótipo do site, temos uma noção concreta de como funcionará e como vamos abordar o desenvolvimento do software. Protótipo esse que foi desenvolvido baseado nas entrevistas e no que julgamos essenciais para atender as necessidades de cada persona que fizemos. Dessa forma, fomos capazer de ter uma ótima visão geral do que é importante e o que é essencial para a produção do melhor software exequível. ......
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
@@ -141,7 +141,7 @@
 
 ## Personas, Empatia e Proposta de Valor
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......   ......
 
 
 > Relacione as personas identificadas no seu projeto, os respectivos mapas de empatia e 
