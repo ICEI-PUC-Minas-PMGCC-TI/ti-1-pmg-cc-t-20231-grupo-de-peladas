@@ -301,6 +301,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 # Metodologia
 
 ......  Realizamos o processo de Design Thinking quase todo no site "miro", com exceção do projeto de interface que foi realizado no figma  ......
+![image](https://user-images.githubusercontent.com/130673538/232350526-edb20091-24c8-40bc-8416-db1153befb20.png)
+
 
 ## Divisão de Papéis
 
