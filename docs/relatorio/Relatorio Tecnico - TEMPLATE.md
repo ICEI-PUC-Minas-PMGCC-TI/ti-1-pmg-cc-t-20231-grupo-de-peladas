@@ -319,7 +319,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ......  
 Scrum Master  - Pedro Rodrigues Alves
 Dev Team      - Vitor Augusto Viana Azevedor
-              - Gabriel Reis Villela
+Dev Team             - Gabriel Reis Villela
               - Arthur Bernardo Santos Marques
   ......
 
