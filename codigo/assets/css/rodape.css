@@ -1,5 +1,11 @@
+    /*geral*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
     /*footer*/
-    .footer_index{
+    .footer{
         max-width: 100%;
         font-weight: bold;
         padding: 5px;
@@ -10,31 +16,31 @@
         justify-content:space-around;
     }
     
-    .footer_index div
+    .footer div
     {
         min-width: 150px;
         max-width: 300px;
     }
     
     
-    .footer_index div h3
+    .footer div h3
     {
         text-align: center;
     }
     
-    .footer_index div p
+    .footer div p
     {
         text-align: justify;
     }
     
-    .footer_index div ul li
+    .footer div ul li
     {
         text-align: justify;
         list-style-type: none;
         margin-top: 5px;
     }
     
-    .footer_index div ul li a
+    .footer div ul li a
     {
         text-decoration: none;
         color: rgb(159, 159, 228);

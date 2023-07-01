@@ -11,7 +11,6 @@
 
 
 .header a{
-    border-color: black;
     text-decoration: none;
     margin-left: 10px;
 }
@@ -20,7 +19,14 @@
     margin: 10px;
 }
 
-#btn_pagina_registro {
+    /*logo*/
+.logo
+{
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+#btn_pagina_login {
     border: 1px solid black;
     margin-right: 10px;
     border-radius: 10px;
@@ -30,22 +36,21 @@
     list-style-type: none;
 }
 
-.logo
+    /*main*/
+.main_cadastro div
 {
-    border: 1px solid black;
-    border-radius: 50px;
-}
-
-    /*Main*/
-.main_index form
-{
-    width: 50%;
-    align-items: center;
+    text-align: center;
     margin: auto;
-    text-align: justify;
+    width: 50%;
+    height: 70vh;
 }
 
-.main_index 
+.btn_cadastrar
 {
-    height: 70vw;
+    font-size: larger;
+    padding: 5px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto 5px;
 }
