@@ -54,3 +54,9 @@
     border-radius: 5px;
     margin: auto 5px;
 }
+
+body {
+    padding-top: 5vh;  /* view height -> 5% da tela */
+    background-image: url('../imgs/soccer1.jpg');
+    background-size: cover;
+}
