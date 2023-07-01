@@ -1,0 +1,50 @@
+/*cabecalho*/
+.header {
+    margin: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header a{
+    border-color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.header a img{
+    margin: 10px;
+}
+
+#btn_pagina_registro {
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(238, 226, 59);
+    color: black;
+    list-style-type: none;
+}
+
+.logo
+{
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+    /*Main*/
+.main_index form
+{
+    width: 50%;
+    align-items: center;
+    margin: auto;
+    text-align: justify;
+}
+
+.main_index 
+{
+    height: 70vw;
+}

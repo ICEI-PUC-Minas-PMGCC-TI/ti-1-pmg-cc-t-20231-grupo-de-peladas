@@ -5,77 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/rodape.css">
-    <link rel="stylesheet" href="assets/css/cabecalho.css">
     <title>Play Portal</title>
 </head>
 <body>
 
 <!--cabecalho-->
-    <header class="header_index" id="header_index">
-        <nav>
-            <a href="index.html"><img src="assets/imgs/logo.jpg" alt="logo"></a>
-            <ul>
-                <a href="lista_peladas.html">
-                    <li>Partidas</li>
-                </a>
-                <a href="cadastro_peladas.html">
-                    <li>Criar Partidas</li>
-                </a>
-                <a href="perfil.html">
-                    <li>Perfil</li>
-                </a>
-                
-            </ul>
-        </nav>
+    <header class="header" id="header_index">
+        <a href="index.html" ><img class="logo" src="assets/imgs/logo.jpg" alt="logo"></a>
+        <a href="modulos/cadastro.html" id="btn_pagina_registro"> Registre-se</a>
     </header>
     
 <!--corpo-->
     <main class="main_index" id="main_index">
-
+        <form >
+            <label for="login_usuario">Usuario</label>
+            <input type="text" id="login_usuario"><br>
+            <label for="senha_usuario">Senha </label>
+            <input type="text" name="senha_usuario" id="senha_usuario"><br>
+            <a href="#">esqueceu a senha</a>
+            <button>enviar</button>
+            
+        </form>
     </main>
 
-<!--rodape-->
-    <footer class="footer_index" id="footer_index">
 
-        <!--Quem somos-->
-        <div class="quem_somos" id="quem_somos">
-            <h3>PLAY PORTAL</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde rerum distinctio assumenda quidem. Voluptatibus unde culpa ratione aliquid, aut enim esse nihil quam cumque, accusantium sapiente, inventore pariatur vel blanditiis.</p>
-        </div>
-
-        <!--Links Usaveis-->
-        <div class="links_usaveis" id="links_usaveis">
-            <h3>LINKS USÁVEIS</h3>
-            <ul>
-                <li><a href="ajuda.html">Ajuda</a></li>
-                <li><a href="politica_privacidade.html">Política de Privacidade</a></li>
-                <li><a href="feedback.html">Feedback</a></li>
-                <li><a href="FAQ.html">FAQ</a></li>
-            </ul>
-        </div>
-
-        <!--Redes Sociais-->
-        <div class="redes_sociais" id="redes_sociais">
-            <h3>REDES SOCIAIS</h3>
-            <ul>
-                <li><a href="https://facebook.com/" target="_blank">Facebook</a></li>
-                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-                <li><a href="https://twitter.com/" target="_blank">Twiter</a></li>
-                <li><a href="https://www.tiktok.com/" target="_blank">Tik Tok</a></li>
-            </ul>
-        </div>
-
-
-        <!--Contato-->
-        <div class="contato" id="contato">
-            <h3>CONTATO</h3>
-            <p>Belo Horizonte, CEP 30535.610, Brasil</p>
-            <p>play.portal@gmail.com</p>
-            <p>+ 55 33 99155-1615</p>
-            <p>+ 55 33 99155-1615</p>
-        </div>
-
-    </footer>
 <!--COPYRIGHT-->
     <p class="copyright" id="copyright">© 2023 Copyright: playportal.com</p>
 
