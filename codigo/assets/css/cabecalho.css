@@ -1,0 +1,42 @@
+/*cabecalho*/
+.header_index {
+    margin: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.header_index nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_index ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+.header_index a{
+    border-color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.header_index a img{
+    margin: 10px;
+}
+
+.header_index li{
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(238, 226, 59);
+    color: black;
+    list-style-type: none;
+}
