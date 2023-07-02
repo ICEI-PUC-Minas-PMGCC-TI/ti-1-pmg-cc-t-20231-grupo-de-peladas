@@ -388,11 +388,23 @@ ti-1-pmg-cc-t-20231-grupo-de-peladas`.
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Ao realizar entrevistas com diversas pessoas encontramos
+        coisas em comum entre elas e a dificuldade em achar pessoas
+        para realizar peladas e ter apenas o futebol com um grande
+        foco nas peladas.Por esses motivos criamos um site para
+        marcar peladas de diversos tipos de esporte assim,resolvendo
+        ambos problemas encontrados. Nosso site permite criar um perfil
+        para as pessoas te conhecerem, marcar peladas de forma simples 
+        e fácil, para isso você pode criar uma pelada ou então encontrar
+        uma que tenha as caracteristicas que você busca e entrar nela
+        para jogar, assim conhecendo novas pessoas e se divertindo.  ......
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  As principais tecnologias utilizadas foram o HTML, CSS e o JavaScript, porém
+        também utilizamos bibliotecas e Api como a do google maps, que permite que
+        tenhamos um mapa no nosso site para que você localize quadrase locais para 
+        marcar peladas......
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
@@ -443,7 +455,9 @@ ti-1-pmg-cc-t-20231-grupo-de-peladas`.
 
 ## Ferramentas de Testes (Opcional)
 
-......  COLOQUE AQUI O SEU TEXTO ......
+...... Realizamos os testes, testando a usabilidade e a capacidade de
+       resposta do site e foi muito útil para nosso aprendizado e para 
+       melhorar nosso site. ......
 
 > Comente sobre as ferramentas de testes utilizadas.
 > 
@@ -453,7 +467,9 @@ ti-1-pmg-cc-t-20231-grupo-de-peladas`.
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Feito os testes os resultados mostraram que algumas funcionalidades
+        ocorreram alguns erros e as vezes demora mais a carregar do que o site
+        e com os testes conseguimos consertar esses erros. ......
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar
@@ -467,6 +483,7 @@ ti-1-pmg-cc-t-20231-grupo-de-peladas`.
 https://www.figma.com/ 
 https://trello.com/
 https://miro.com/
+https://console.cloud.google.com/google/maps-apis/home?project=aerobic-polygon-391620
 ......
 
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
