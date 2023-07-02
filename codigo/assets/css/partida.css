@@ -1,0 +1,216 @@
+/*cabecalho*/
+.header {
+    grid-column:1/6 ;
+    grid-row:1/2 ;
+    margin: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+}
+
+.header nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+.header a{
+    border-color: black;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.header a img{
+    margin: 10px;
+}
+
+.header li{
+    border: 1px solid black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(238, 226, 59);
+    color: black;
+    list-style-type: none;
+    
+}
+
+.btn_configurar_perfil{
+    border: 1px solid black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(238, 226, 59);
+    color: black;
+    list-style-type: none;
+}
+
+.btn_configurar_perfil:hover
+{
+    background-color:rgb(168, 160, 46) ;
+}
+
+.pesquisar
+{
+    border: 1px solid black;
+}
+.logo
+{
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+    /*main*/
+
+.main
+{
+    display: grid;
+    margin: 10px auto;
+    min-height: 75vh;
+    margin: 5px;
+}
+
+
+/*header_main*/
+.header_main_partida
+{
+    grid-column: 1/5 ;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.titulo_head_main
+{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+}
+
+.titulo_head_main div:nth-child(2)
+{
+    border-left: 1px groove black;
+    
+}
+.titulo_head_main div:nth-child(1)
+{
+    font-size: larger;
+}
+
+.dados_head_main
+{
+    display: grid;
+}
+
+.horario_dados_head
+{
+    grid-column:
+    1/2 ;
+    grid-row:1/2 ;
+}
+.data_head_main{
+    grid-column: 1/2;
+    grid-row: 2/3 ;
+
+}
+.endereco_head_mai{
+    grid-column: 2/3 ;
+    grid-row: 1/2;
+}
+.adm_head_main{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+
+/*chat_main*/
+.chat_main_partida
+{
+    grid-column:1/5 ;
+    grid-row:2/12;
+    display: grid;
+    border: 1px solid black;
+}
+
+.conversas_chat_main{
+    grid-column:1/2 ;
+    grid-row: 1/6;
+}
+
+.conversas_chat_main > h4
+{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.conversas_chat_main > button
+{
+    
+}
+
+.atual_conversa_chat{
+    grid-column:2/5 ;
+    grid-row:2/6 ;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid black;
+}
+.mensagens
+{
+    width: 100%;
+    height: 90%;
+}
+
+.escrever_mensagens
+{
+    text-align: center;
+}
+
+#escrever_mensagens
+{
+    width: 90%;
+    border: 2px solid blue;
+}
+.titulo_atual_conversa{
+    grid-column:2/5 ;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-top: none;
+    border-right: none;
+}
+
+.titulo_atual_conversa >div > img{
+    max-width: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+/*usuarios_main*/
+.usuarios_main_partida
+{
+    border: 1px solid black;
+    border-left: none;
+    grid-column: 5/7 ;
+    grid-row: 1/12;
+}
+
+.qntd_pessoas
+{
+    border-bottom:1px solid black ;
+}
