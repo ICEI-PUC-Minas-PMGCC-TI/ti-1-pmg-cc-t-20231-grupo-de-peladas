@@ -77,6 +77,12 @@ body{
     min-height: 50vh;
 }
 
+.apresentar_partida
+{
+    border: 1px solid black; 
+}
+
+
 .head_apresentar_jogos{
     display: flex;
     flex-wrap: wrap;
@@ -112,11 +118,13 @@ body{
     background-color: rgb(179, 122, 0);
 }
 
+
     /*footer*/
 .footer
 {
     grid-column:1/4 ;
     grid-row:3/4 ;
+
 }
     /*copyright*/
 .copyright

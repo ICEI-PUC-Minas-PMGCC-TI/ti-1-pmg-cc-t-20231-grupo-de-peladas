@@ -46,14 +46,14 @@
     
         for (let i = 0; i < objDados.peladas.length; i++)
         {
-            strHtml += `<p> <a href="../modulos/partida.html?${objDados.peladas[i].id}" class="apresentar_partida"> 
+            strHtml += `<div class="apresentar_partida"><a href="../modulos/partida.html?${objDados.peladas[i].id}"> 
             <div class="apresentar_nome">${objDados.peladas[i].nome}</div>
             <div class="apresentar_esporte">Esporte:${objDados.peladas[i].esporte}</div>
             <div class="apresentar_cidade">cidade:${objDados.peladas[i].cidade}</div>
             <div class="apresentar_bairro">bairro: ${objDados.peladas[i].bairro}</div>
             <div class="apresentar_horario"> horario: ${objDados.peladas[i].inicio} às ${objDados.peladas[i].fim}</div>
             <div class="apresentar_data">${objDados.peladas[i].data}</div>
-            <div class="apresentar_qntd">${objDados.peladas[i].quantidade}</div></a></p>`
+            <div class="apresentar_qntd">${objDados.peladas[i].quantidade}</div></a></div>`
 
         }//fim for
     
