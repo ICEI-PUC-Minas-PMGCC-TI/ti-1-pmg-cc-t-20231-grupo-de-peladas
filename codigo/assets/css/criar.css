@@ -39,10 +39,13 @@
     margin-left: 10px;
     border-radius: 10px;
     padding: 10px;
-    background-color: rgb(238, 226, 59);
+    background-color: #ff3ee2;
     color: black;
-    list-style-type: none;
-    
+    list-style-type: none;   
+}
+
+.header li:hover{
+    background-color: #ff7aeb;
 }
 
 .pesquisar

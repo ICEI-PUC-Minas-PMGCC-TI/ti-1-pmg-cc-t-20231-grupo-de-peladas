@@ -43,10 +43,14 @@ body{
     margin-left: 10px;
     border-radius: 10px;
     padding: 10px;
-    background-color: rgb(238, 226, 59);
+    background-color: #ff3ee2;
     color: black;
     list-style-type: none;
     
+}
+
+.header li:hover{
+    background-color: #ff7aeb;
 }
 
 .pesquisar
@@ -97,25 +101,25 @@ body{
 {
     border: 1px solid black;
     margin-left: 10px;
-    background-color: rgb(238, 226, 59);
+    background-color: #ff3ee2;
     border-radius: 5px;
 }
 
 .head_apresentar_jogos select{
     border: 1px solid black;
     margin-right: 10px;
-    background-color: rgb(238, 226, 59);
+    background-color: #ff3ee2;
     border-radius: 5px;
 }
 
 #btnFiltrar:hover
 {
-    background-color: rgb(179, 122, 0);
+    background-color: #ff7aeb;
 }
 
 #btnNotificar:hover
 {
-    background-color: rgb(179, 122, 0);
+    background-color: #ff7aeb;
 }
 
 
