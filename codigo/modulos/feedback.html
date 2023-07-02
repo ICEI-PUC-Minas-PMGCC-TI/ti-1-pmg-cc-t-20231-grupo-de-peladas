@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PLAY PORTAL</title>
+</head>
+
+<body>
+    <!--Cabecalho-->
+    <header class="cabecalho">
+        <nav>
+            <a href="index.html"><img src="/img/logo.jpg" alt="logo"></a>
+            <ul>
+                <a href="lista_peladas.html">
+                    <li>Partidas</li>
+                </a>
+                <a href="cadastro_peladas.html">
+                    <li>Criar Partidas</li>
+                </a>
+                <a href="perfil.html">
+                    <li>Perfil</li>
+                </a>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!--corpo-->
+    <main class="meio">
+        <h2>Feedback</h2>
+        <form class="formulario" action="">
+            <label for="anonimo">Anônimo?</label>
+            <select name="anonimo" id="anonimo" >
+                <option value="Nao">não</option>
+                <option value="Sim">sim</option>
+            </select>
+            <label for="email_feedback">E-mail</label>
+            <input type="email" id="email_feedback"><br><br></h4>
+            <h4><label for="avaliacao_feedback">Avaliação da Página</label>
+            1
+            <input type="range" name="avaliacao_feedback" id="avaliacao_feedback" step="25">
+            5
+            </h4>
+            <br>
+            <h4> Descreva seu feedback</h4> 
+            <textarea name="texto_feedback" id="texto_feedback" cols="50" rows="10"
+            required placeholder="Conte-nos o que motivou esse feedback..."></textarea><br>
+            <br>
+            <div id="submit">
+                <button id="btnIncluirFeedback">Enviar</button>
+            </div>
+        </form>
+
+        <a class="link" href="ver_feedback.html">Ver feedback</a>
+
+    </main>
+
+    <!--rodape-->
+    <footer class="rodape">
+        
+        <!--Quem somos-->
+        <div class="quem_somos">
+            <h3>PLAY PORTAL</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde rerum distinctio assumenda quidem. Voluptatibus unde culpa ratione aliquid, aut enim esse nihil quam cumque, accusantium sapiente, inventore pariatur vel blanditiis.</p>
+        </div>
+
+        <!--Links Usaveis-->
+        <div class="links_usaveis">
+            <h3>LINKS USÁVEIS</h3>
+            <ul>
+                <li><a href="ajuda.html">Ajuda</a></li>
+                <li><a href="politica_privacidade.html">Política de Privacidade</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+        </div>
+
+        <!--Redes Sociais-->
+        <div class="redes_sociais">
+            <h3>REDES SOCIAIS</h3>
+            <ul>
+                <li><a href="https://facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/" target="_blank">Twiter</a></li>
+                <li><a href="https://www.tiktok.com/" target="_blank">Tik Tok</a></li>
+            </ul>
+        </div>
+
+
+        <!--Contato-->
+        <div class="contato">
+            <h3>CONTATO</h3>
+            <p>Belo Horizonte, CEP 30535.610, Brasil</p>
+            <p>play.portal@gmail.com</p>
+            <p>+ 55 33 99155-1615</p>
+            <p>+ 55 33 99155-1615</p>
+        </div>
+
+
+    </footer>
+
+    <p class="copyright">© 2023 Copyright: playportal.com</p>
+
+    <script src="feedback.js"></script>
+</body>
+
+</html>
