@@ -79,11 +79,31 @@ body{
     margin-left: 5px;
     margin-bottom: 5px;
     min-height: 50vh;
+
 }
 
 .apresentar_partida
 {
     border: 1px solid black; 
+    width: 150px;
+    height: 170px;
+    margin: 10px;
+    background-color: #ff3ee2;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.apresentar_partida a
+{
+    text-decoration: none;
+    color: black;
+    font-size:medium;
+    
+}
+
+.apresentar_partida a div:nth-child(1)
+{
+    border-bottom:1px solid black ;
 }
 
 

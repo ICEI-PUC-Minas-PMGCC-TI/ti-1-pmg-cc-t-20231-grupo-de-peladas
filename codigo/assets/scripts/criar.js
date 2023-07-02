@@ -1,4 +1,33 @@
+const urlParams = new URLSearchParams(window.location.search);
+const productId = urlParams.get('id');
+    
+    
+    var objPessoas = {
+        pessoas:
+        [
+            {
+                id: '0',
+                nome: 'Joaquim',
+                fav_esporte: 'peteca',
+                descricao: 'Gosto de jogar peteca'
+            },
+            {
+                id: '1',
+                nome: 'Ana',
+                fav_esporte: 'futebol',
+                descricao: 'Gosto de jogar futebol'
+            },
+            {
+                id: '2',
+                nome: 'Rouanet',
+                fav_esporte: 'futebol',
+                descricao: 'Gosto de jogar futebol'
+            }
+        ]
 
+    }
+    
+    
     function leDados() {
         let strDados = localStorage.getItem('db');
         let objDados = {};
@@ -22,7 +51,8 @@
                             numero: '500',
                             inicio: '14:00',
                             fim: '16:00',
-                            data:'20/12/2023'
+                            data:'20/12/2023',
+                            users: ['0','1','2']
                         }
                     ]
             }
@@ -46,7 +76,7 @@
     
         for (let i = 0; i < objDados.peladas.length; i++)
         {
-            strHtml += `<div class="apresentar_partida"><a href="../modulos/partida.html?${objDados.peladas[i].id}"> 
+            strHtml += `<div class="apresentar_partida"><a href="../modulos/partida.html?id=${objDados.peladas[i].id}"> 
             <div class="apresentar_nome">${objDados.peladas[i].nome}</div>
             <div class="apresentar_esporte">Esporte:${objDados.peladas[i].esporte}</div>
             <div class="apresentar_cidade">cidade:${objDados.peladas[i].cidade}</div>
@@ -109,3 +139,4 @@
         document.getElementById('btnIncluirPelada').addEventListener('click', incluirPeladas);
     
     
+
