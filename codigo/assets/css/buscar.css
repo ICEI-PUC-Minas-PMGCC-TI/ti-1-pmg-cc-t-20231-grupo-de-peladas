@@ -107,9 +107,9 @@ body{
     background-color: rgb(179, 122, 0);
 }
 
-#btnNotificar
+#btnNotificar:hover
 {
-
+    background-color: rgb(179, 122, 0);
 }
 
     /*aside*/

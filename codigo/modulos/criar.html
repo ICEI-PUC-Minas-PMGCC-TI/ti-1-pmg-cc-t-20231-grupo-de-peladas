@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/rodape.css">
+    <link rel="stylesheet" href="../assets/css/criar.css">
+
+    <title>Play Portal</title>
+</head>
+
+<body>
+    <!--cabecalho-->
+    <header class="header" id="header_criar">
+        <nav>
+            <a href="../index.html"><img class="logo" src="../assets/imgs/logo.png" alt="logo"></a>
+            <input type="search" name="pesquisar" id="pesquisar" class="pesquisar" placeholder="@Jogos, @usuarios">
+            <ul>
+                <a href="./buscar.html">
+                    <li>Buscar Jogos</li>
+                </a>
+                <a href="perfil.html">
+                    <li>Perfil</li>
+                </a>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!--corpo-->
+    <main class="main" id="main_criar">
+
+        <form action="">
+            <!--cadastrar nome da pelada-->
+            <div id="criar_nome_pelada">
+                <label for="nome_pelada">Nome</label>
+                <input type="text" id="nome_pelada" name="nome_pelada" placeholder="Escreva o nome da pelada.">
+            </div>
+
+            <!--cadastrar esporte da pelada-->
+            <div id="criar_esporte_pelada">
+                <label for="esporte_pelada">Esporte</label>
+                <select name="esporte_pelada" id="esporte_pelada">
+                    <option value="futebol">Futebol</option>
+                    <option value="volei">Volei</option>
+                    <option value="basquete">Basquete</option>
+                    <option value="handball">Handball</option>
+                </select>
+            </div>
+
+            <!--cadastrar quantidade de peladeiros-->
+            <div id="criar_tamanho_pelada">
+                <label for="tamanho_pelada">Quantidade</label>
+                <select name="tamanho_pelada" id="tamanho_pelada">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                </select>
+            </div>
+
+            <!--cadastrar local da pelada-->
+            <div id="criar_local_pelada">
+                <label for="cidade_pelada">Cidade</label>
+                <input type="text" name="cidade_pelada" id="cidade_pelada">
+                <label for="bairro_pelada"><br>Bairro</label>
+                <input type="text" id="bairro_pelada" name="bairro_pelada" placeholder="Bairro"><br>
+                <label for="logradouro_pelada">Logradouro</label>
+                <input type="text" name="logradouro_pelada" id="logradouro_pelada"><br>
+                <label for="numero_pelada">Número</label>
+                <input type="number" name="numero_pelada" id="numero_pelada">
+            </div>
+
+
+            <!--Horario e data-->
+            <div id="criar_horarioEdata_pelada">
+                <!--cadastrar horario de inicio da pelada-->
+                <div id="criar_horario_inicio">
+                    <label for="horario_inicio">inicio</label>
+                    <input type="time" id="horario_inicio" >
+                </div>
+
+                <!--cadastrar horario de fim da pelada-->
+                <div id=" criar_horario_fim">
+                    <label for="horario_fim">Fim</label>
+                    <input type="time" name="horario_fim" id="horario_fim" >
+                </div>
+                
+                <label for="data_pelada">data</label>
+                <input type="date" name="data_pelada" id="data_pelada">
+        
+            </div>
+
+            <!--botao de salvar-->
+            <div id="submit">
+                <button id="btnIncluirPelada">Enviar</button>
+            </div>
+        </form>
+    </main>
+
+    <!--rodape-->
+    <footer class="footer" id="footer_criar">
+
+        <!--Quem somos-->
+        <div class="quem_somos" id="quem_somos">
+            <h3>PLAY PORTAL</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde rerum distinctio assumenda quidem.
+                Voluptatibus unde culpa ratione aliquid, aut enim esse nihil quam cumque, accusantium sapiente,
+                inventore pariatur vel blanditiis.</p>
+        </div>
+
+        <!--Links Usaveis-->
+        <div class="links_usaveis" id="links_usaveis">
+            <h3>LINKS USÁVEIS</h3>
+            <ul>
+                <li><a href="ajuda.html">Ajuda</a></li>
+                <li><a href="politica_privacidade.html">Política de Privacidade</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+        </div>
+
+        <!--Redes Sociais-->
+        <div class="redes_sociais" id="redes_sociais">
+            <h3>REDES SOCIAIS</h3>
+            <ul>
+                <li><a href="https://facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/" target="_blank">Twiter</a></li>
+                <li><a href="https://www.tiktok.com/" target="_blank">Tik Tok</a></li>
+            </ul>
+        </div>
+
+
+        <!--Contato-->
+        <div class="contato" id="contato">
+            <h3>CONTATO</h3>
+            <p>Belo Horizonte, CEP 30535.610, Brasil</p>
+            <p>play.portal@gmail.com</p>
+            <p>+ 55 33 99155-1615</p>
+            <p>+ 55 33 99155-1615</p>
+        </div>
+
+    </footer>
+    <!--COPYRIGHT-->
+    <p class="copyright" id="copyright">© 2023 Copyright: playportal.com</p>
+
+    <!-- chamar arquivo java script-->
+    <script src="assets/scripts/index.js"></script>
+</body>
+
+</html>
