@@ -60,3 +60,132 @@ body {
     background-image: url('../imgs/soccer1.jpg');
     background-size: cover;
 }
+
+/* geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+}
+
+input, label {
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus {
+    outline: none;
+}
+
+a {
+    color: #E60084;
+}
+
+body {
+    padding-top: 5vh;  /* view height -> 5% da tela */
+    background-image: url('../imgs/soccer1.jpg');
+    background-size: cover;
+}
+
+/* form */
+#main-container{
+    width: 750px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 60px;
+}
+
+#main-container h1 {
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 2.3rem; /* adaptada ao elemento root */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box{
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.name-box{
+    flex: 1 1 30%;
+    position: relative;
+}
+
+.sport-box{
+    flex: 1 1 30%;
+    position: relative;
+}
+
+.half-box{
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.mini-box{
+    flex: 1 1 13%;
+    position: relative;
+}
+
+.spacing{
+    margin-right: 2.5%;
+}
+
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+input:focus{
+    border-color: #E60084;
+}
+
+input[type="submit"]{
+    background-color: #E60084;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#agreement{
+    margin-right: 5px;
+}
+
+#agreement, #agreement-label{
+    display: inline-block;
+    width: auto;
+}
+
+/* validações */
+.error-validation{
+    color:#FF1A1A;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template{
+    display: none;
+}

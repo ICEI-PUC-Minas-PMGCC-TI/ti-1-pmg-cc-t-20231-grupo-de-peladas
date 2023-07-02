@@ -143,3 +143,93 @@
 {
     opacity: 90%;
 }
+/* geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+}
+
+input, label {
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus {
+    outline: none;
+}
+
+a {
+    color: #E60084;
+}
+
+body {
+    padding-top: 5vh;  /* view height -> 5% da tela */
+    background-image: url('../imgs/carrossel_imgs/futebol-1.webp');
+    background-size: cover;
+}
+
+/* form */
+#main-container{
+    width: 750px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 60px;
+}
+
+#main-container h1 {
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 2.3rem; /* adaptada ao elemento root */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box{
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.half-box{
+    flex: 1 1 45%;
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+label{
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+input:focus{
+    border-color: #E60084;
+}
+
+input[type="submit"]{
+    background-color: #E60084;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
