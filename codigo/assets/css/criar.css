@@ -70,3 +70,76 @@
     justify-content: center;
 }
 
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    background-color: #ff3ee2;
+    color: black;
+    border: white;
+    border-radius: 5px;
+    width: max-content;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  select {
+    height: 40px;
+  }
+  
+  input[type="time"],
+  input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  main{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 120vh;
+    animation: animate 16s ease-in-out infinite;
+    background-size: cover;
+  }
+
+
+  @keyframes animate{
+    0%,100%{
+        background-image: url(../imgs/carrossel_imgs/futebol-1.webp);
+    }
+    25%{
+        background-image: url(../imgs/carrossel_imgs/beach-tenis-1.webp);
+    }
+    50%{
+        background-image: url(../imgs/carrossel_imgs/basquete-1.webp);
+    }
+    75%{
+        background-image: url(../imgs/carrossel_imgs/gamers-1.jpg);
+    }
+}
