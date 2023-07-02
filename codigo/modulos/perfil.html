@@ -28,37 +28,43 @@
         </nav>
     </header>
 
-    <!--corpo-->
-    <main class="main" id="main_perfil">
-        <div class="detalhes_perfil">
-            <div id="img_perfil" class="img_perfil"><img src="../assets/imgs/logo.png" alt=""></div>
-            
-            <p id="apelido_perfil" class="apelido_perfil">apelido</p>
-            <button id="solicitar_amizade_perfil" class="solicitar_amizade_perfil">solicitar amizade</button>
-            <p id="qntd_jogos_perfil" class="qntd_jogos_perfil">QNTD jogos</p>
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Página de Perfil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main-container">
+    <h1>Meu Perfil</h1>
 
-            <p id="qntd_amigos_perfil" class="qntd_amigos_perfil">QNTD amigos</p>
+    <form>
+      <div class="full-box">
+        <label for="foto">Foto:</label>
+        <input type="file" id="foto">
+      </div>
 
-            <p id="nome_perfil" class="nome_perfil">nome</p>
-        </div>
-        <div class="postagem_perfil">
-            <div class="btns_perfil">
-                <button id="btn_publicar_imagem_perfil">
-                    Publicacoes
-                </button>
+      <div class="half-box">
+        <label for="nome">Nome ou Apelido:</label>
+        <input type="text" id="nome">
+      </div>
 
-                <button id="btn_publicar_peladas_perfil">
-                    Peladas
-                </button>
+      <div class="half-box">
+        <label for="esportes">Esportes favoritos:</label>
+        <input type="text" id="esportes">
+      </div>
 
-                <button id="btn_publicar_tabela_perfil">
-                    Tabela de horarios
-                </button></div>
-                <div id="posts_perfil">
+      <div class="full-box">
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao"></textarea>
+      </div>
 
-                </div>
-        </div>
-    </main>
+      <input type="submit" value="Salvar">
+    </form>
+  </div>
+</body>
+</html>
+
 
     <!--rodape-->
     <footer class="footer" id="footer_perfil">
