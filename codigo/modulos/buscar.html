@@ -3,22 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/paginaInicial.css">
     <link rel="stylesheet" href="../assets/css/rodape.css">
+    <link rel="stylesheet" href="../assets/css/buscar.css">
+
     <title>Play Portal</title>
 </head>
 <body>
-
 <!--cabecalho-->
-    <header class="header" id="header_index">
+    <header class="header" id="header_buscar">
         <nav>
-            <a href="index.html"><img src="assets/imgs/logo.jpg" alt="logo"></a>
+            <a href="index.html"><img class="logo" src="../assets/imgs/logo.png" alt="logo"></a>
+            <input type="search" name="pesquisar" id="pesquisar" class="pesquisar" placeholder="@Jogos, @usuarios">
             <ul>
-                <a href="lista_peladas.html">
-                    <li>Partidas</li>
-                </a>
-                <a href="cadastro_peladas.html">
-                    <li>Criar Partidas</li>
+                <a href="./criar.html">
+                    <li>Criar Jogos</li>
                 </a>
                 <a href="perfil.html">
                     <li>Perfil</li>
@@ -29,12 +27,31 @@
     </header>
     
 <!--corpo-->
-    <main class="main" id="main_index">
+    <main class="main" id="main_buscar">
+        
+        <div class="head_apresentar_jogos" id="head_apresentar_jogos">
+            
+            <div >
+                <button id="btnFiltrar">Filtrar</button>
+                <button id="btnNotificar">notificar</button>
+            </div>
+            
+            <select name="ordenar_jogos" id="ordenar_jogos">
+            <option value="ordenar">ordenar</option>
+            </select>
+        </div>
 
+        <div class="apresentar_jogos" id="apresentar_jogos">
+
+        </div>
     </main>
-
+    
+<!--Mada do google-->
+    <aside class="asside" id="asside_buscar">
+        mapa google
+    </aside>
 <!--rodape-->
-    <footer class="footer" id="footer">
+    <footer class="footer" id="footer_buscar">
 
         <!--Quem somos-->
         <div class="quem_somos" id="quem_somos">

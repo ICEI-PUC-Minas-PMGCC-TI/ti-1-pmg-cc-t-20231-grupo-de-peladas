@@ -1,28 +1,14 @@
-
-
 /*cabecalho*/
 .header {
     margin: 5px;
     border-radius: 10px;
     border-style: solid;
     border-color: black;
-}
-
-.header nav
-{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.header ul {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-right: 30px;
-}
 
 .header a{
     border-color: black;
@@ -34,8 +20,9 @@
     margin: 10px;
 }
 
-.header li{
-    margin-left: 10px;
+#btn_pagina_registro {
+    border: 1px solid black;
+    margin-right: 10px;
     border-radius: 10px;
     padding: 10px;
     background-color: rgb(238, 226, 59);
@@ -48,3 +35,18 @@
     border: 1px solid black;
     border-radius: 50px;
 }
+
+    /*Main*/
+.main_index form
+{
+    width: 50%;
+    align-items: center;
+    margin: auto;
+    text-align: justify;
+}
+
+.main_index 
+{
+    height: 70vw;
+}
+
