@@ -112,15 +112,6 @@ body{
     background-color: rgb(179, 122, 0);
 }
 
-    /*aside*/
-.aside
-{
-    grid-column:4/6 ;
-    grid-row:2/5 ;
-}
-
-
-
     /*footer*/
 .footer
 {
@@ -133,3 +124,11 @@ body{
     grid-column:1/4 ;
     grid-row:4/5 ;
 }
+
+#map{
+    grid-column:4/6 ;
+    grid-row:2/5 ;
+    width: 100%;
+    height: 450px;
+}
+    
