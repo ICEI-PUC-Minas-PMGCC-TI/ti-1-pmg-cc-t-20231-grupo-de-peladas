@@ -10,54 +10,28 @@
     <title>PLAY PORTAL</title>
 </head>
 
-<body>
+<body onload="imprimeDados()">
     <!--Cabecalho-->
     <header class="cabecalho">
         <nav>
             <a href="../index.html"><img src="../assets/imgs/logo.png" alt="logo"></a>
             <ul>
-                <a href="buscar.html">
-                    <li> Buscar Partidas</li>
+                <a href="./buscar.html">
+                    <li>Buscar Partidas</li>
                 </a>
-                <a href="criar.html">
+                <a href="./criar.html">
                     <li>Criar Partidas</li>
                 </a>
-                <a href="perfil.html">
-                    <li>Perfil</li>
-                </a>
-                
             </ul>
         </nav>
     </header>
 
     <!--corpo-->
-    <main class="meio">
-        <h2>Feedback</h2>
-        <form class="formulario" action="">
-            <label for="anonimo">Anônimo?</label>
-            <select name="anonimo" id="anonimo" >
-                <option value="Nao">não</option>
-                <option value="Sim">sim</option>
-            </select>
-            <label for="email_feedback">E-mail</label>
-            <input type="email" id="email_feedback"><br><br></h4>
-            <h4><label for="avaliacao_feedback">Avaliação da Página</label>
-            1
-            <input type="range" name="avaliacao_feedback" id="avaliacao_feedback" step="25">
-            5
-            </h4>
-            <br>
-            <h4> Descreva seu feedback</h4> 
-            <textarea name="texto_feedback" id="texto_feedback" cols="50" rows="10"
-            required placeholder="Conte-nos o que motivou esse feedback..."></textarea><br>
-            <br>
-            <div id="submit">
-                <button id="btnIncluirFeedback">Enviar</button>
-            </div>
-        </form>
+    <main class="meio" >
+        <div id="tela_feedback" class="tela_feedback">
+            <p></p>
 
-        <a class="link" href="ver_feedback.html">Ver feedback</a>
-
+        </div>
     </main>
 
     <!--rodape-->
@@ -75,6 +49,7 @@
             <ul>
                 <li><a href="ajuda.html">Ajuda</a></li>
                 <li><a href="politica_privacidade.html">Política de Privacidade</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
                 <li><a href="FAQ.html">FAQ</a></li>
             </ul>
         </div>
@@ -103,9 +78,10 @@
 
     </footer>
 
+    <!--COPYRIGHT-->
     <p class="copyright">© 2023 Copyright: playportal.com</p>
 
-    <script src="/codigo/assets/scripts/feedback.js"></script>
+    <script src="../assets/scripts/feedback.js"></script>
 </body>
 
 </html>
