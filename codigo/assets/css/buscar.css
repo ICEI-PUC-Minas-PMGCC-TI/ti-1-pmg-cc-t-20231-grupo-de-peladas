@@ -157,10 +157,91 @@ body{
     grid-row:4/5 ;
 }
 
-#map{
-    grid-column:4/6 ;
-    grid-row:2/5 ;
-    width: 100%;
+#map {
+    background-color: #ccc;
     height: 610px;
+    width: 500px;
+    flex: 1 0 300px; 
+    margin-left: 20px;
+    border-radius: 5px; 
+  }
+ 
+.apresentar_jogos {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  flex: 1 0 auto;
+  max-width: 1000px;
 }
-    
+
+.apresentar_partida {
+    background-color: #ff96ef;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    height: 230px;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+  }
+  
+  .apresentar_partida a {
+    text-decoration: none;
+    color: #333333;
+  }
+  
+  .apresentar_partida a:hover {
+    color: #000000;
+  }
+  
+  .apresentar_nome {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .apresentar_esporte,
+  .apresentar_cidade,
+  .apresentar_bairro,
+  .apresentar_horario,
+  .apresentar_data,
+  .apresentar_qntd {
+    margin-bottom: 5px;
+  }
+  
+  .apresentar_esporte::before,
+  .apresentar_cidade::before,
+  .apresentar_bairro::before,
+  .apresentar_horario::before,
+  .apresentar_data::before,
+  .apresentar_qntd::before {
+    font-weight: bold;
+  }
+  
+  .apresentar_esporte::before {
+    content: "Esporte: ";
+  }
+  
+  .apresentar_cidade::before {
+    content: "Cidade: ";
+  }
+  
+  .apresentar_bairro::before {
+    content: "Bairro: ";
+  }
+  
+  .apresentar_horario::before {
+    content: "Horário: ";
+  }
+  
+  .apresentar_data::before {
+    content: "Data: ";
+  }
+  
+  .apresentar_qntd::before {
+    content: "Quantidade: ";
+  }
+  
