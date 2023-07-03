@@ -138,6 +138,3 @@ const productId = urlParams.get('id');
     
     //botao de enviar
         document.getElementById('btnIncluirPelada').addEventListener('click', incluirPeladas);
-    
-    
-
