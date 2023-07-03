@@ -142,7 +142,7 @@
 .chat_main_partida
 {
     grid-column:1/5 ;
-    grid-row:2/12;
+    grid-row:1/12;
     display: grid;
     border: 1px solid black;
 }
@@ -165,7 +165,7 @@
 
 .atual_conversa_chat{
     grid-column:2/5 ;
-    grid-row:2/6 ;
+    grid-row:1/6 ;
     display: flex;
     flex-direction: column;
     border-left: 1px solid black;
@@ -216,4 +216,21 @@
 .qntd_pessoas
 {
     border-bottom:1px solid black ;
+}
+
+.conversas
+{
+    text-align: center;
+}
+.conversas button
+{
+    align-items: center;
+    background-color: #ff3ee2;
+    border: 1px solid black ;
+    border-radius: 15%;
+}
+
+.conversas button:hover
+{
+    opacity: 90%;
 }
