@@ -409,16 +409,16 @@ ti-1-pmg-cc-t-20231-grupo-de-peladas`.
         as informações.
         
         1-página inicial tem 3 botões que levam para páginas diferentes.
-        (images/1.png)
+        (docs/relatorio/images/1.png)
         2-página de perfil, mostra seus dados que vooê colocar, pode colocar uma foto de perfil também.
-        (images/2.png)
+        (docs/relatorio/images/2.png)
         3-página de criação das peladas, ela te da várias opções de diferentes esportes para criar sua pelada.
-        (images/3.png)
+        (docs/relatorio/images/3.png)
         4-página de peladas é onde as peladas que você criou são postadas.
-        (images/4.png)
+        (docs/relatorio/images/4.png)
         5-cada pelada criada ao clicar nela, te leva para uma página com um chat para conversar com outras pessoas
         e decidirem coisas das peladas.
-        (images/5.png)   ......
+        (docs/relatorio/images/5.png)   ......
 
 
 
@@ -457,8 +457,8 @@ ti-1-pmg-cc-t-20231-grupo-de-peladas`.
         peladas onde a pessoa pode clricar e entrar para pelada, dentro 
         dessa funcionalidade tudo ocorreu do jeito correto, testamos diversas
         vezes com esportes,hora,dia,quantidade de pessoas e tudo funcionou. 
-        (images/3.png)
-        (images/4.png)
+        (docs/relatorio/images/3.png)
+        (docs/relatorio/images/4.png)
         ......
 
 > Apresente os cenários de testes utilizados na realização dos testes da
