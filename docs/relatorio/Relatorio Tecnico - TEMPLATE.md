@@ -403,8 +403,17 @@ ti-1-pmg-cc-t-20231-grupo-de-peladas`.
 
 ......  As principais tecnologias utilizadas foram o HTML, CSS e o JavaScript, porém
         também utilizamos bibliotecas e Api como a do google maps, que permite que
-        tenhamos um mapa no nosso site para que você localize quadrase locais para 
-        marcar peladas......
+        tenhamos um mapa no nosso site para que você localize quadras e locais para 
+        marcar peladas, utilizamos uma local storage para armazenar os dados que as
+        pessoas cadastram para criar a pelada e elas aparecem em outra pagina com todas
+        as informações.
+        
+        1-página inicial tem 3 botões que levam para páginas diferentes.
+        2-página de perfil, mostra seus dados que vooê colocar, pode colocar uma foto de perfil também.
+        3-página de criação das peladas, ela te da várias opções de diferentes esportes para criar sua pelada.
+        4-página de peladas é onde as peladas que você criou são postadas.
+        5-cada pelada criada ao clicar nela, te leva para uma página com um chat para conversar com outras pessoas
+        e decidirem coisas das peladas.   ......
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
@@ -421,7 +430,10 @@ ti-1-pmg-cc-t-20231-grupo-de-peladas`.
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+...... O usuario vai entrar se cadastrar, escolher uma pelada para
+       participar ou entao encontrar uma pelada que atende melhor o
+       que ele busca, as tecnologias que fazem parte é,html,css, javascript,
+       usamos local storage para guardar os dados das peladas. .......
 
 > Inclua um diagrama da solução e descreva os módulos e as tecnologias
 > que fazem parte da solução. Discorra sobre o diagrama.
@@ -433,7 +445,11 @@ ti-1-pmg-cc-t-20231-grupo-de-peladas`.
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  Os testes foram realizados com as páginas e queriamos que
+        quando criassem as peladas elas iriam aprecer em uma tela de 
+        peladas onde a pessoa pode clricar e entrar para pelada, dentro 
+        dessa funcionalidade tudo ocorreu do jeito correto, testamos diversas
+        vezes com esportes,hora,dia,quantidade de pessoas e tudo funcionou. ......
 
 > Apresente os cenários de testes utilizados na realização dos testes da
 > sua aplicação. Escolha cenários de testes que demonstrem os requisitos
@@ -441,7 +457,11 @@ ti-1-pmg-cc-t-20231-grupo-de-peladas`.
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+...... Primeira pagina: tem as opções para criar a partida, ver elas e o seu perfil.
+       Ao clicar em "criar jogos" você vai para uma pagina onde mostra as opções para criar uma pelada.
+       Após adicionar as opções do jeito desejado elas vao para a página de postagem onde outras pessoas conseguem 
+       vizualizar as peladas.
+       Ao clicar na pelada as pessoas vão para página da pelada onde tem o chat para conversar e mostra quantas pessoas estão na pelada. ......
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
