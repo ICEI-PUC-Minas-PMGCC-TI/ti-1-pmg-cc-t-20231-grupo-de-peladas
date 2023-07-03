@@ -10,7 +10,7 @@
     <title>Play Portal</title>
 </head>
 
-<body>
+<body onload="imprimeDados()">
     <!--cabecalho-->
     <header class="header" id="header_partida">
         <nav>
@@ -58,7 +58,9 @@
                 </div>
                 <form  class="escrever_mensagens">
                     <input id="escrever_mensagens" type="text">
-                    <button class="enviar+mensagens" id="enviar_mensagens">
+                    <button class="BTNenviar_mensagens" id="BTNenviar_mensagens"
+                    form="#"
+                    >
                         >
                     </button>
                 </form>
@@ -67,8 +69,8 @@
                 <div>
                     <img src="../assets/imgs/logo.png" alt="imagem">
                 </div>
-                <div>
-                    <h3>Peladeiro Puc</h3>
+                <div id="nome_partida_apresentar">
+                    
                 </div>
             </div>
         </article>
@@ -79,12 +81,10 @@
         <article id="usuarios_main_partida" class="usuarios_main_partida">
             <div class="qntd_pessoas" >
                 <div>Pessoas</div>
-                <div id="qntd_pessoas">
-                    20/30
                 </div>
             </div>
             <div id="pessoas_atuais">
-                <a href="">pessoa1</a>
+                <a href="">Joaquim</a>
             </div>
         </article>
     </main>

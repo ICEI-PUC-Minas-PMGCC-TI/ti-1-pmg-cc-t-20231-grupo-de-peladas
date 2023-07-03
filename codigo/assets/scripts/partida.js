@@ -62,82 +62,94 @@ const productId = urlParams.get('id');
     
         return objDados;
     }//fim ler dados
+
+    function leMensagem() {
+        let strDados = localStorage.getItem('mensagem');
+        let objDados = {};
+    
+        if (strDados) {
+            objDados = JSON.parse(strDados);
+        }//fim if
+        else {
+            objDados =
+            {
+                mensagens:
+                    [
+                        {
+                            texto: ''
+                        }
+                    ]
+            }
+    
+        }//fim else
+    
+        return objDados;
+    }//fim ler dados
     
     
     function salvaDados(dados) {
         localStorage.setItem('db', JSON.stringify(dados));
     }//fim salvaDados
     
-    
+    function salvaMensagens(dados) {
+        localStorage.setItem('mensagem', JSON.stringify(dados));
+    }//fim salvaDados
+
     function imprimeDados() 
     {
-        let tela = document.getElementById('apresentar_jogos');
+        let tela = document.getElementById('nome_partida_apresentar');
         let strHtml = '';
         let objDados = leDados();
     
-        for (let i = 0; i < objDados.peladas.length; i++)
-        {
-            strHtml += `<div class="apresentar_partida"><a href="../modulos/partida.html?id=${objDados.peladas[i].id}"> 
-            <div class="apresentar_nome">${objDados.peladas[i].nome}</div>
-            <div class="apresentar_esporte">Esporte:${objDados.peladas[i].esporte}</div>
-            <div class="apresentar_cidade">cidade:${objDados.peladas[i].cidade}</div>
-            <div class="apresentar_bairro">bairro: ${objDados.peladas[i].bairro}</div>
-            <div class="apresentar_horario"> horario: ${objDados.peladas[i].inicio} às ${objDados.peladas[i].fim}</div>
-            <div class="apresentar_data">${objDados.peladas[i].data}</div>
-            <div class="apresentar_qntd">${objDados.peladas[i].quantidade}</div></a></div>`
+   
+            strHtml = `<h3>${objDados.peladas[productId].nome}</h3>`
 
-        }//fim for
     
         tela.innerHTML = strHtml;
      
     }//fim imprimeDados()
     
-     function incluirPeladas() 
+
+    function imprimeMensagem() 
+    {
+        let tela = document.getElementById('mensagens');
+        let strHtml = '';
+        let objDados = leMensagem();
+    
+   
+            strHtml = `<h6>${objDados.mensagens[(objDados.mensagens.length)-1].texto}</h6>`
+
+    
+        tela.innerHTML = strHtml;
+     
+    }//fim imprimeDados()
+
+
+     function incluirMensagem() 
     {
      // ler os dados do localStorage
-        let objDados = leDados();
+        let objDados = leMensagem();
     
      // incluir uma nova pelada
-        let strId = objDados.peladas.length;
-        let strNome     = document.getElementById('nome_pelada'  ).value;
-        let strEsporte  = document.getElementById('esporte_pelada' ).value;
-        let strQntd  = document.getElementById('tamanho_pelada'  ).value;
-        let strCidade = document.getElementById('cidade_pelada').value;
-        let strBairro = document.getElementById('bairro_pelada').value;
-        let strLogr = document.getElementById('logradouro_pelada').value;
-        let strNumero = document.getElementById('numero_pelada').value;
-        let strInicio   = document.getElementById('horario_inicio' ).value;
-        let strFim      = document.getElementById('horario_fim'   ).value;
-        let strData = document.getElementById('data_pelada').value;
-    
-    
-    
-        let novaPelada = {
-                id :strId,
-                nome: strNome,
-                esporte: strEsporte,
-                quantidade: strQntd,
-                cidade: strCidade,
-                bairro: strBairro,
-                logradouo: strLogr,
-                numero: strNumero,
-                inicio: strInicio,
-                fim: strFim,
-                data: strData
+        let strMensagem  = document.getElementById('escrever_mensagens' ).value;
+        
+        let novaMensagem = {
+                text :strMensagem
         };
     
-        objDados.peladas.push(novaPelada);
+        objDados.mensagens.push(novaMensagem);
      // Salvar os dados no localStorage novamente
-        salvaDados(objDados);
+        salvaMensagens(objDados);
     
      // imprimir dados
-        imprimeDados();
+        imprimeMensagem();
     
     }//fim incluirPeladas()
     
     
     //botao de enviar
-        document.getElementById('btnIncluirPelada').addEventListener('click', incluirPeladas);
+        document.getElementById(' BTNenviar_mensagens').addEventListener('click', incluirMensagem);
     
     
+   
 

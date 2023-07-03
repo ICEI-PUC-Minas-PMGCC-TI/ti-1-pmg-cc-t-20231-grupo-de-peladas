@@ -234,3 +234,27 @@
 {
     opacity: 90%;
 }
+
+.BTNenviar_mensagens
+{
+    background-color: rgb(60, 216, 60);
+    border: 1px solid black;
+}
+
+.BTNenviar_mensagens:hover
+{
+    background-color: rgb(182, 216, 60);
+}
+
+
+#pessoas_atuais
+{
+    text-align: center;
+    color: black;
+}
+
+#pessoas_atuais a
+{
+    text-decoration: none;
+        
+}
