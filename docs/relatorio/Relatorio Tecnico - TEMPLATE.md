@@ -12,7 +12,7 @@
 ......  Vitor Viana 
         Gabriel Reis 
         Pedro Rogrigues Alves.
-        Arthur Bernardo
+       
          ......
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
@@ -409,11 +409,18 @@ ti-1-pmg-cc-t-20231-grupo-de-peladas`.
         as informações.
         
         1-página inicial tem 3 botões que levam para páginas diferentes.
+        (images/1.png)
         2-página de perfil, mostra seus dados que vooê colocar, pode colocar uma foto de perfil também.
+        (images/2.png)
         3-página de criação das peladas, ela te da várias opções de diferentes esportes para criar sua pelada.
+        (images/3.png)
         4-página de peladas é onde as peladas que você criou são postadas.
+        (images/4.png)
         5-cada pelada criada ao clicar nela, te leva para uma página com um chat para conversar com outras pessoas
-        e decidirem coisas das peladas.   ......
+        e decidirem coisas das peladas.
+        (images/5.png)   ......
+
+
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
@@ -430,7 +437,7 @@ ti-1-pmg-cc-t-20231-grupo-de-peladas`.
 
 ## Arquitetura da solução
 
-...... O usuario vai entrar se cadastrar, escolher uma pelada para
+...... O usuário vai entrar se cadastrar, escolher uma pelada para
        participar ou entao encontrar uma pelada que atende melhor o
        que ele busca, as tecnologias que fazem parte é,html,css, javascript,
        usamos local storage para guardar os dados das peladas. .......
@@ -449,7 +456,10 @@ ti-1-pmg-cc-t-20231-grupo-de-peladas`.
         quando criassem as peladas elas iriam aprecer em uma tela de 
         peladas onde a pessoa pode clricar e entrar para pelada, dentro 
         dessa funcionalidade tudo ocorreu do jeito correto, testamos diversas
-        vezes com esportes,hora,dia,quantidade de pessoas e tudo funcionou. ......
+        vezes com esportes,hora,dia,quantidade de pessoas e tudo funcionou. 
+        (images/3.png)
+        (images/4.png)
+        ......
 
 > Apresente os cenários de testes utilizados na realização dos testes da
 > sua aplicação. Escolha cenários de testes que demonstrem os requisitos
